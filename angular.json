@@ -103,6 +103,12 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://ashot-grandwp.github.io/epam-angular-course-app/"
+          }
         }
       }
     }
